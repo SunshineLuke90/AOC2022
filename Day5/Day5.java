@@ -39,7 +39,6 @@ public class Day5 {
         inputScanner.close();
         return crates;
     }
-    // Method to print out a 2d array with axis inverted
     public static void print2dArray(ArrayList<ArrayList<String>> array){
         for(int i = 0; i < array.size(); i++){
             for(int j = 0; j < array.get(i).size(); j++){
